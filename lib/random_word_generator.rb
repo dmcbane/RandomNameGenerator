@@ -10,7 +10,7 @@ module RandomWordGenerator
     end
   end
 
-  def self.generate(count: 1, base_file: 'media/greek_myth_sample', &process_name)
+  def self.generate(count: 1, base_file: File.expand_path('../media/greek_myth_sample', __dir__), &process_name)
     process_name ||= proc {|name| puts name}
     generator = RandomNameGenerator.new(base_file)
     count.times { process_name.call(generator.generate) }

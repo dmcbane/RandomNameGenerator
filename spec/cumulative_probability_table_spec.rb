@@ -1,10 +1,10 @@
-require_relative '../probability_table'
-require_relative '../cumulative_probability_table'
-require_relative '../two_letter_length_strategy'
-require_relative '../two_letter_cumulative_strategy'
-require_relative '../three_letter_length_strategy'
-require_relative '../three_letter_cumulative_strategy'
-require_relative '../input_loader'
+require_relative '../lib/random_word_generator/probability_table'
+require_relative '../lib/random_word_generator/cumulative_probability_table'
+require_relative '../lib/random_word_generator/two_letter_length_strategy'
+require_relative '../lib/random_word_generator/two_letter_cumulative_strategy'
+require_relative '../lib/random_word_generator/three_letter_length_strategy'
+require_relative '../lib/random_word_generator/three_letter_cumulative_strategy'
+require_relative '../lib/random_word_generator/input_loader'
 
 describe "CumulativeProbabilityTable" do
   describe "#load" do

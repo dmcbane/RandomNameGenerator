@@ -1,7 +1,7 @@
-require_relative '../probability_table'
-require_relative '../two_letter_length_strategy'
-require_relative '../three_letter_length_strategy'
-require_relative '../input_loader'
+require_relative '../lib/random_word_generator/probability_table'
+require_relative '../lib/random_word_generator/two_letter_length_strategy'
+require_relative '../lib/random_word_generator/three_letter_length_strategy'
+require_relative '../lib/random_word_generator/input_loader'
 
 describe "ProbabilityTable" do
   describe "#load" do
