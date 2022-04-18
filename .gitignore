@@ -13,3 +13,5 @@
 *.o
 *.a
 mkmf.log
+empty_file
+media/probability_table.json
